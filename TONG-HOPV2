@@ -1,0 +1,73 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/vinh12eqweaws/zingmods/refs/heads/main/zingpro')))()
+
+local Window = OrionLib:MakeWindow({Name = "Haohup", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
+
+local Tab = Window:MakeTab({
+	Name = "Skill by hao",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab2 = Window:MakeTab({
+	Name = "Fix Lag by hao",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab3 = Window:MakeTab({
+	Name = "Nhân vật by hao",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "insant lethal dash haodz",
+	Callback = function()
+        repeat wait(0) until game:IsLoaded()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/InstantLethal/refs/heads/main/Protected_5983112998592296.lua"))()
+  end
+ })
+ 
+ Tab:AddButton({
+	Name = "Kiba",
+	Callback = function()
+        repeat wait(0) until game:IsLoaded()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MerebennieOfficial/ExoticJn/refs/heads/main/Kibav4"))()
+  end
+ })
+ 
+ Tab:AddButton({
+	Name = "Fake Dash by haodz",
+	Callback = function()
+        repeat wait(0) until game:IsLoaded()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/FakeDash/refs/heads/main/Protected_5833389828844912.lua"))()
+  end
+ })
+ 
+ Tab:AddButton({
+	Name = "Oreo by hao",
+	Callback = function()
+        repeat wait(0) until game:IsLoaded()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/OreoTech/refs/heads/main/Protected_6856895483929371.lua"))()
+  end
+ })
+ 
+ Tab2:AddButton({
+	Name = "Fix Lag 1",
+	Callback = function()
+        repeat wait(0) until game:IsLoaded()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
+  end
+ })
+ 
+ Tab3:AddButton({
+	Name = "NV1",
+	Callback = function()
+        repeat wait(0) until game:IsLoaded()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua"))()
+  end
+ })
+ 
+ 
+ 
+ 
